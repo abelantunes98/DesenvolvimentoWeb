@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">
+        
+        <! -- Esses dados podem ser encontrados, como  o autor, softwarem, palavras-chaves -->
+        
+        <meta name="author" content="Abel Antunes">
+        <meta name="generator" content="Brackets">
+        <meta name="Keywords" content="HTML5, Curso Html, testando, Abel">
+        <meta name="description" content="Pagina de teste 01.">
+        <meta name="application-name" content="iMedia Brasil">
+        
+        <! -- Esse método atualiza a página automáticamente a cada 4 segundos. -->
+        
+        <meta http-equiv="refresh" content="0.5">
+        
+        <! -- script de javaScript para testar o refresh -->
+        
+        <script>
+            function sorteioNumero(){
+                resultado.innerHTML = Math.random() * 50;
+            }
+            
+            window.onload = sorteioNumero;
+        </script>
+        
+    </head>
+    
+        <body>
+        <p id="resultado"></p>
+    </body>
+</html>
