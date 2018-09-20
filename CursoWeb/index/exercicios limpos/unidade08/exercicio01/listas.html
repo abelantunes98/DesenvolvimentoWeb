@@ -4,15 +4,44 @@
         <meta charset="utf-8">
         <title>Curso HTML5 Essencial</title>
         
+         <! --Selecionando uma imagem de estrela como tópico da lista.-->
         <style>
             body {
                 font-family: sans-serif;
                 font-size: 12 px;
             }
+            
+            ul{
+                margin: 0;padding: 0;
+                width: 200px; <!-- Largura do menu.-->
+            }
+            
+            li{
+                list-style: none;
+            }
+            
+            li a{
+                display: block; <!-- Config menu -->
+                text-decoration: none;
+                background-color: #090c;
+                margin-bottom: 1px;
+                padding:5px 3px;
+                color: azure
+            }
+            
+            li a:houver{
+                
+            }
 		</style>
     </head>
     
+    <!-- Listas e sublistas -->
     <body>
-        
+        <ul>
+            <li> <a href="imagem/estrela.png">Brasil</a></li>
+            <li> <a href="imagem/estrela.png">Argentina</a></li>
+            <li> <a href="imagem/estrela.png">México</a></li>
+            <li> <a href="imagem/estrela.png">Angola</a></li>
+        </ul>
     </body>
 </html>
