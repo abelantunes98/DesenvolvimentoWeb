@@ -1,5 +1,12 @@
 <html>
     <head>
+        
+        <!-- Adicionando uma font para todo o texto. No body-->
+        <!-- Usando tamanhos relativos como 'em' para tornar o tamanho da font propor
+        cional a página, pode usar porcentagem também. -->
+        
+        <!-- Alinhamento com text-align, line-height para distância entre as linhas. identação com text indent, text decoration para sublinhados, text-transform para transformar um case-->
+        
         <title>Curso de CSS3 - Essencial</title>
         <meta charset="utf-8">
 
@@ -8,23 +15,33 @@
         <style>
 
             body {
-
+                font-family: sans-serif;
+                font-size: 3em;
             }
 
             h1 { 
-
+                font-size: 100%;
+                font-style: italic;
             }
 
             h4 {
 
             }
-
-            p {
-
+            
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
             }
+            
+            p {
+                text-align: justify;
+                line-height: 2em;
+                text-indent: 120;
+                text-decoration: none;
+            }   
 
             .italico {
-
+                font-weight:3000;
             }
 
             .detaqueNegrito {
@@ -37,9 +54,9 @@
     </head>
 
     <body>
-        <h1>Cascading Style Sheets</h1>
+        <h1 class="italico">Cascading Style Sheets</h1>
         <h4>Origem: Wikipédia, a enciclopédia livre.</h4>
-        <p>Cascading Style Sheets (ou simplesmente CSS) uma linguagem de estilo utilizada para definir a apresentação de documentos escritos em uma linguagem de marcação, como ou XML. Seu principal benefício é prover a separação entre o formato e o conteúdo de um documento.</p>
+        <p><a href="#">Cascading</a> Style Sheets (ou simplesmente CSS) uma linguagem de estilo utilizada para definir a apresentação de documentos escritos em uma linguagem de marcação, como ou XML. Seu principal benefício é prover a separação entre o formato e o conteúdo de um documento.</p>
         <p>Em vez de colocar a formatação dentro do documento, o desenvolvedor cria um link (ligação) para uma página que contém os estilos, procedendo de forma idêntica para todas as páginas de um portal. Quando quiser alterar a aparência do portal basta portanto modificar apenas um arquivo.</p>
     </body>
 </html>
