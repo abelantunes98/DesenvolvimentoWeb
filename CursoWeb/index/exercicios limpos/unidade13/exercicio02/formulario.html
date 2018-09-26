@@ -9,8 +9,20 @@
 
     <body>
         
+        <!-- Formulario simples o metodo post deixa os dados escondidos - size para determinar o tamanho em caracteres. maxlenght para o número máximo de caracteres.-->
+        
         <h2>Formulário</h2>
         
+        <form action="destino.html" method="post">
+            
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" name="nome" id="nome">
+            
+            <label for="email">Digite seu email:</label>
+            <input type="email" name="email" id="email" maxlength="10">
+           
+            <input type="submit" value="Enviar", id="enviar" name="enviar">
+        </form>
     
     </body>
 </html>
