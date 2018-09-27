@@ -25,12 +25,16 @@
                 box-shadow: 0 0 10px #666;
                 margin:10px auto;
                 padding:10px;
+                position: relative;
             }
 
             #principal {
                 background-color:rgb(240,240,240);
                 border:1px dotted #666666;
                 margin-top:20px;
+                position: absolute;
+                height: 500px;
+                width: 500px;
             }
 
             section {
@@ -38,11 +42,19 @@
             }
 
             .janela1 {
+                /**Posicionamento absoluto Ignora tipos de posicionamentos nao definidos. Pode fazer o uso do z index para tratar de profundidade também.*/
                 background-color:rgb(153,204,51);
+                position: absolute;
+                top: 10;
+                left: 10;
+                z-index: 10px;
             }
 
             .janela2 {
                 background-color:rgb(255,204,51);
+                position: absolute;
+                top: 12px;
+                left: 12px;
             }
 
             .janela3 {
