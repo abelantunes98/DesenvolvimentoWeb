@@ -2,7 +2,18 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
+            var frase = "Frase teste.";
+            var primeiraLetra = frase.charAt(0);
             
+            var letra = "";
+            var palavra = "";
+            var i = 0;
+            while (letra != " ") {
+                letra = frase.charAt(i++);
+                palavra += letra;
+            }
+            
+            alert(palavra);
         </script>
     </head>
     <body>
